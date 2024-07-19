@@ -1,64 +1,69 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
+const ITEMS =[{img1:'img/item1.jpg',img2:'img/item2.jpg',img3:'img/item3.jpg',img4:'img/item4.jpg'},
+              {img1:'img/item5.jpg',img2:'img/item6.jpg',img3:'img/item7.jpg',img4:'img/item8.jpg'},
+              {img1:'img/item9.jpg',img2:'img/item10.jpg',img3:'img/item11.jpg',img4:'img/item12.jpg'}]
+
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Products|Furniture Design</title>
+        <link rel="icon" href="img/favicon.ico" />
       </Head>
-
+      <header className={styles.header}>
+        <img src='img/logo.svg'/>
+        <div className={styles.headerBtn}>
+          <i></i>
+          <i></i>
+        </div>
+      </header>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+        <p>Products</p>
+        {ITEMS.map(item =>{
+          return(
+            <div className={styles.mainContainer}>
+            <div className={styles.flexItems}>
+              <div className={styles.item}>
+                <img src={item.img1}/>
+                <p>プロダクトタイトルプロダクトタイトル</p>
+                <p>¥99,999 +tax</p>
+              </div>
+              <div className={styles.item}>
+                <img src={item.img2}/>
+                <p>プロダクトタイトルプロダクトタイトル</p>
+                <p>¥99,999 +tax</p>
+              </div>
+            </div>
+            <div className={styles.flexItems}>
+              <div className={styles.item}>
+                <img src={item.img3}/>
+                <p>プロダクトタイトルプロダクトタイトル</p>
+                <p>¥99,999 +tax</p>
+              </div>
+              <div className={styles.item}>
+                <img src={item.img4}/>
+                <p>プロダクトタイトルプロダクトタイトル</p>
+                <p>¥99,999 +tax</p>
+              </div>
+            </div>
+          </div> 
+          )
+        })}
+        <div className={styles.pageLinkBtn}>
+          <p>1</p>
+          <p>2</p>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        <div className={styles.footerLinks}>
+          <a><p>INSTAGRAM</p></a>
+          <a><p>TWITTER</p></a>
+          <a><p>FACEBOOK</p></a>
+        </div>
+        <p>© Furniture Design</p>
       </footer>
     </div>
   )
