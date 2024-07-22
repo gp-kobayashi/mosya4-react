@@ -10,8 +10,10 @@ export default function Home() {
     {img1:'img/item5.jpg',img2:'img/item6.jpg',img3:'img/item7.jpg',img4:'img/item8.jpg'},
     {img1:'img/item9.jpg',img2:'img/item10.jpg',img3:'img/item11.jpg',img4:'img/item12.jpg'}]
 
-
-
+const [isActive,setIsActive]=useState(false)
+const handleDisplay=() =>{
+  setIsActive((isActive) => !isActive);
+};
   return (
     <div className={styles.container}>
       <Head>
@@ -20,14 +22,14 @@ export default function Home() {
       </Head>
       <header className={styles.header}>
         <img src='img/logo.svg'/>
-        <div className={styles.headerBtn}>
+        <div onClick={handleDisplay}  className={`${styles.headerBtn} ${isActive ? styles.active : ""}`}>
           <i></i>
           <i></i>
         </div>
       </header>
       <main className={styles.main}>
-      <div className={styles.headerMenu}>
-          <div className={styles.headerBg}>
+      <div className={`${styles.headerMenu} ${isActive ? styles.active : ""}`}>
+          <div className={`${styles.headerBg} ${isActive ? styles.active : ""}`}>
             <ul>
               <li>PRODUCTS</li>
               <li>ABOUT</li>
