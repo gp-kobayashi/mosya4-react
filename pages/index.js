@@ -1,11 +1,17 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import { useState } from 'react'
 
-const ITEMS =[{img1:'img/item1.jpg',img2:'img/item2.jpg',img3:'img/item3.jpg',img4:'img/item4.jpg'},
-              {img1:'img/item5.jpg',img2:'img/item6.jpg',img3:'img/item7.jpg',img4:'img/item8.jpg'},
-              {img1:'img/item9.jpg',img2:'img/item10.jpg',img3:'img/item11.jpg',img4:'img/item12.jpg'}]
+
 
 export default function Home() {
+
+  const ITEMS =[{img1:'img/item1.jpg',img2:'img/item2.jpg',img3:'img/item3.jpg',img4:'img/item4.jpg'},
+    {img1:'img/item5.jpg',img2:'img/item6.jpg',img3:'img/item7.jpg',img4:'img/item8.jpg'},
+    {img1:'img/item9.jpg',img2:'img/item10.jpg',img3:'img/item11.jpg',img4:'img/item12.jpg'}]
+
+
+
   return (
     <div className={styles.container}>
       <Head>
@@ -20,6 +26,16 @@ export default function Home() {
         </div>
       </header>
       <main className={styles.main}>
+      <div className={styles.headerMenu}>
+          <div className={styles.headerBg}>
+            <ul>
+              <li>PRODUCTS</li>
+              <li>ABOUT</li>
+              <li>COMPANY</li>
+              <li>CONTACT</li>
+            </ul>
+          </div>
+        </div>
         <p>Products</p>
         {ITEMS.map(item =>{
           return(
@@ -55,6 +71,7 @@ export default function Home() {
           <p>1</p>
           <p>2</p>
         </div>
+        
       </main>
 
       <footer className={styles.footer}>

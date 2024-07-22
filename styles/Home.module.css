@@ -12,6 +12,7 @@
 }
 
 .headerBtn{
+  z-index: 20;
   position: fixed;
   top: 0;
   right: 0;
@@ -28,9 +29,53 @@
   height: 2px;
   background-color: black;
 }
+
 .headerBtn i:last-child{
   top:30px;
 } 
+
+.headerMenu{
+  z-index: 10;
+}
+
+.headerBg{
+  display: none;
+}
+.headerMenu ul{
+  margin-top: 50px;
+}
+.headerMenu li{
+  display: none;
+  overflow: hidden;
+  position: relative;
+  left: -150px;
+}
+
+.headerBtn.active i{
+  top:25px;
+  transform:rotate(45deg);
+  background-color: black;
+}
+.headerBtn.active i:last-child{
+  top:25px;
+  transform:rotate(-45deg)
+} 
+.headerBg.active{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.7;
+}
+.headerMenu.active li{
+  color: white;
+  list-style: none;
+  margin: 15px;
+  left: 0;
+}
+
 
 .main p{
   margin: 100px 30px 0 30px;
@@ -49,6 +94,13 @@
   width: 50%;
   margin: 20px;
 }
+
+.item:hover{
+  color: white;
+  opacity: 0.8;
+  transition:0.5s;
+}
+
 .item img{
   width: 100%;
 }
