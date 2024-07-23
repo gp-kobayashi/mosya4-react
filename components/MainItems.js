@@ -2,15 +2,13 @@ import styles from '../styles/Home.module.css'
 
 export function MainItems(props) {
 
-  const ITEMS =[{img1:'img/item1.jpg',img2:'img/item2.jpg',img3:'img/item3.jpg',img4:'img/item4.jpg'},
-    {img1:'img/item5.jpg',img2:'img/item6.jpg',img3:'img/item7.jpg',img4:'img/item8.jpg'}
-    ]
+  const ITEMS = props.ITEMS
 
   return (
         <div className={styles.mainItens}>
-        {ITEMS.map(item =>{
+        {ITEMS.map((item,index) =>{
           return(
-            <div className={styles.mainContainer}>
+            <div key={index} className={styles.mainContainer}>
             <div className={styles.flexItems}>
               <div className={styles.item}>
                 <img src={item.img1}/>

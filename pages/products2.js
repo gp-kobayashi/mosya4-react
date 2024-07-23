@@ -6,10 +6,8 @@ import { MainItems } from '../components/MainItems'
 import { PageLink } from '../components/PageLink'
 
 
-export default function Products() {
-  const ITEMS =[{img1:'img/item1.jpg',img2:'img/item2.jpg',img3:'img/item3.jpg',img4:'img/item4.jpg'},
-    {img1:'img/item5.jpg',img2:'img/item6.jpg',img3:'img/item7.jpg',img4:'img/item8.jpg'},
-    {img1:'img/item9.jpg',img2:'img/item10.jpg',img3:'img/item11.jpg',img4:'img/item12.jpg'}
+export default function Products2() {
+  const ITEMS =[{img1:'img/item13.jpg',img2:'img/item14.jpg',img3:'img/item15.jpg',img4:'img/item16.jpg'}
     ] 
 
   return (
