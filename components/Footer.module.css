@@ -1,0 +1,17 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer p{
+  margin: 0 10px 20px 10px;
+  font-size: 12px;
+}
+
+.footerLinks{
+  display: flex;
+}
+
+.footerLinks p{
+  margin: 0 10px 20px 10px;
+  font-size: 12px;
+}

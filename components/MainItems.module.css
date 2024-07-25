@@ -1,0 +1,35 @@
+.main p{
+  margin: 100px 30px 0 30px;
+}
+
+.mainContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.mainItens{
+  margin-top: 100px;
+}
+
+.flexItems{
+  display: flex;
+}
+.item{
+  width: 50%;
+  margin: 20px;
+}
+
+.item:hover{
+  color: white;
+  opacity: 0.8;
+  transition:0.5s;
+}
+
+.item img{
+  width: 100%;
+}
+
+.item p{
+  font-size: 12px ;
+  margin: 0;
+}
