@@ -14,7 +14,7 @@ const IMG =['img/item1.jpg','img/item2.jpg','img/item3.jpg','img/item4.jpg',
         <p>プロダクトタイトル</p>
         <div className={styles.itemExplain}>
         <div className={styles.itemImg}>
-            <img src={IMG[props.img]}/>
+            <img src={IMG[props.page]}/>
         </div>
         <div className={styles.itemText}>
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>

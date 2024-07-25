@@ -1,4 +1,5 @@
 import styles from './MainItems.module.css'
+import Link from 'next/link'
 
 export function MainItems(props) {
 
@@ -11,10 +12,13 @@ export function MainItems(props) {
             <div key={index} className={styles.mainContainer}>
             <div className={styles.flexItems}>
               <div className={styles.item}>
+              <Link href="/item1">
                 <img src={item.img1}/>
                 <p>プロダクトタイトルプロダクトタイトル</p>
                 <p>¥99,999 +tax</p>
+                </Link>
               </div>
+              
               <div className={styles.item}>
                 <img src={item.img2}/>
                 <p>プロダクトタイトルプロダクトタイトル</p>
