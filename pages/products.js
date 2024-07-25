@@ -7,10 +7,15 @@ import Link from 'next/link'
 
 
 export default function Products() {
-  const ITEMS =[{{img1:'img/item1.jpg',page1:"/item1"},{img2:'img/item2.jpg',page2:"/item2"},{img3:'img/item3.jpg',page3:"/item3"},{img4:'img/item4.jpg',page4:"/item4"}},
-    {{img1:'img/item5.jpg',page1:"/item5"},{img2:'img/item6.jpg',page2:"/item6"},{img3:'img/item7.jpg',page3:"/item7"},{img4:'img/item8.jpg',page4:"/item8"}},
-    {{img1:'img/item5.jpg',page1:"/item5"},{img2:'img/item6.jpg',page2:"/item6"},{img3:'img/item7.jpg',page3:"/item7"},{img4:'img/item8.jpg',page4:"/item8"}},
-    ] 
+  const ITEMS =[{img1:'img/item1.jpg',img2:'img/item2.jpg',img3:'img/item3.jpg',img4:'img/item4.jpg'},
+    {img1:'img/item5.jpg',img2:'img/item6.jpg',img3:'img/item7.jpg',img4:'img/item8.jpg'},
+    {img1:'img/item9.jpg',img2:'img/item10.jpg',img3:'img/item11.jpg',img4:'img/item12.jpg'},
+  ]
+  //上の配列を下のようにimgとpageをくっつけた形にしたいです。
+  // const ITEMS =[{{img1:'img/item1.jpg',page1:"/item1"},{img2:'img/item2.jpg',page2:"/item2"},{img3:'img/item3.jpg',page3:"/item3"},{img4:'img/item4.jpg',page4:"/item4"}},
+  //   {{img1:'img/item5.jpg',page1:"/item5"},{img2:'img/item6.jpg',page2:"/item6"},{img3:'img/item7.jpg',page3:"/item7"},{img4:'img/item8.jpg',page4:"/item8"}},
+  //   {{img1:'img/item5.jpg',page1:"/item5"},{img2:'img/item6.jpg',page2:"/item6"},{img3:'img/item7.jpg',page3:"/item7"},{img4:'img/item8.jpg',page4:"/item8"}},
+  //   ] 
 
   return (
     <div className={styles.container}>
