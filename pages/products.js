@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { MainItems } from '../components/MainItems'
-import { PageLink } from '../components/PageLink'
+import Link from 'next/link'
 
 
 export default function Products() {
@@ -25,8 +25,14 @@ export default function Products() {
       
       <MainItems ITEMS={ITEMS}/>
 
-      <PageLink link={<div className={styles.pageLinkBtn}><p>1</p> <p>2</p></div>}/>
+      <div className={styles.pageLinkBtn}>
+      <p>1</p>
       
+      <Link href="/products2">
+      <p>2</p>
+      </Link>
+      </div>
+
       </main>
 
       <Footer />

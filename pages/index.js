@@ -3,7 +3,8 @@ import styles from '../styles/Home.module.css'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
 import { MainItems } from '../components/MainItems'
-import { PageLink } from '../components/PageLink'
+import Link from 'next/link'
+
 
 
 export default function Home() {
@@ -26,9 +27,13 @@ export default function Home() {
       <main className={styles.main}>
       
       <MainItems ITEMS={ITEMS}/>
+      
+      <div className={styles.pageLinkBtn}>
+        <Link href="/products">
+          <p>View More</p>
+        </Link>
+      </div>
 
-      <PageLink link={<p>View More</p>}/>
-        
       </main>
 
       <Footer />
