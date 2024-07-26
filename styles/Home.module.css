@@ -3,6 +3,16 @@
   margin-top: 100px;
 }
 
+.about{
+  max-width: 600px;
+  margin: 100px 30px;
+}
+.about p{
+  margin-top: 30px;
+  font-size: 14px;
+  line-height:2;
+}
+
 .itemPege{
   margin-top: 100px;
   width: 850px;
