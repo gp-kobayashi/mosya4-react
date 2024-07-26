@@ -23,10 +23,18 @@ export function Header() {
         <div className={`${styles.headerMenu} ${isActive ? styles.active : ""}`}>
           <div className={`${styles.headerBg} ${isActive ? styles.active : ""}`}>
             <ul>
-              <li>PRODUCTS</li>
+              <Link href="/products">
+                <li>PRODUCTS</li>
+              </Link>
+              <Link href="/about">
               <li>ABOUT</li>
+              </Link>
+              <Link href="/products">
               <li>COMPANY</li>
+              </Link>
+              <Link href="/products">
               <li>CONTACT</li>
+              </Link>
             </ul>
           </div>
         </div>

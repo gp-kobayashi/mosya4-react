@@ -7,7 +7,7 @@ import { ItemExplain } from '../components/ItemExplain'
 
 
 
-export default function item1() {
+export default function item2() {
 
   
 
