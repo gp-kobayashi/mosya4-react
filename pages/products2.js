@@ -21,7 +21,11 @@ export default function Products2() {
       <Header />
 
       <main className={styles.main}>
-      
+        
+      <div className={styles.mainTitle}>
+        <p>Products</p>
+      </div>
+
       <MainItems ITEMS={ITEMS}/>
 
      <div className={styles.pageLinkBtn}>

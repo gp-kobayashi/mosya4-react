@@ -26,8 +26,10 @@ export default function Products() {
       <Header />
 
       <main className={styles.main}>
-      
-      <MainItems ITEMS={ITEMS}/>
+        <div className={styles.mainTitle}>
+        <p>Products</p>
+        </div>
+      <MainItems ITEMS={ITEMS} />
 
       <div className={styles.pageLinkBtn}>
       <p>1</p>
