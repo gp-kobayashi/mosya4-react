@@ -7,15 +7,14 @@ import Link from 'next/link'
 
 
 export default function Products() {
-  const ITEMS =[{img1:'img/item1.jpg',img2:'img/item2.jpg',img3:'img/item3.jpg',img4:'img/item4.jpg'},
-    {img1:'img/item5.jpg',img2:'img/item6.jpg',img3:'img/item7.jpg',img4:'img/item8.jpg'},
-    {img1:'img/item9.jpg',img2:'img/item10.jpg',img3:'img/item11.jpg',img4:'img/item12.jpg'},
-  ]
-  //上の配列を下のようにimgとpageをくっつけた形にしたいです。
-  // const ITEMS =[{{img1:'img/item1.jpg',page1:"/item1"},{img2:'img/item2.jpg',page2:"/item2"},{img3:'img/item3.jpg',page3:"/item3"},{img4:'img/item4.jpg',page4:"/item4"}},
-  //   {{img1:'img/item5.jpg',page1:"/item5"},{img2:'img/item6.jpg',page2:"/item6"},{img3:'img/item7.jpg',page3:"/item7"},{img4:'img/item8.jpg',page4:"/item8"}},
-  //   {{img1:'img/item5.jpg',page1:"/item5"},{img2:'img/item6.jpg',page2:"/item6"},{img3:'img/item7.jpg',page3:"/item7"},{img4:'img/item8.jpg',page4:"/item8"}},
-  //   ] 
+  const ITEMS =[{img:'img/item1.jpg',page:'/item1'},{img:'img/item2.jpg',page:'/item2'},
+    {img:'img/item3.jpg',page:'/item3'},{img:'img/item4.jpg',page:'/item4'},
+    {img:'img/item5.jpg',page:'/item5'},{img:'img/item6.jpg',page:'/item6'},
+    {img:'img/item7.jpg',page:'/item7'},{img:'img/item8.jpg',page:'/item8'},
+    {img:'img/item9.jpg',page:'/item9'},{img:'img/item10.jpg',page:'/item10'},
+    {img:'img/item11.jpg',page:'/item11'},{img:'img/item12.jpg',page:'/item12'},
+    ] 
+  
 
   return (
     <div className={styles.container}>

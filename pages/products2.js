@@ -7,8 +7,9 @@ import { MainItems } from '../components/MainItems'
 import Link from 'next/link'
 
 export default function Products2() {
-  const ITEMS =[{img1:'img/item13.jpg',img2:'img/item14.jpg',img3:'img/item15.jpg',img4:'img/item16.jpg'}
-    ] 
+  const ITEMS =[{img:'img/item13.jpg',page:'/item13'},{img:'img/item14.jpg',page:'/item14'},
+    {img:'img/item15.jpg',page:'/item15'},{img:'img/item16.jpg',page:'/item16'},
+  ]
 
   return (
     <div className={styles.container}>

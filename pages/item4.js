@@ -2,19 +2,13 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Footer } from '../components/Footer'
 import { Header } from '../components/Header'
-import { MainItems } from '../components/MainItems'
 import Link from 'next/link'
+import { ItemExplain } from '../components/ItemExplain'
 
 
 
-export default function Home() {
+export default function item1() {
 
-  
-  const ITEMS =[{img:'img/item1.jpg',page:'/item1'},{img:'img/item2.jpg',page:'/item2'},
-    {img:'img/item3.jpg',page:'/item3'},{img:'img/item4.jpg',page:'/item4'},
-    {img:'img/item5.jpg',page:'/item5'},{img:'img/item6.jpg',page:'/item6'},
-    {img:'img/item7.jpg',page:'/item7'},{img:'img/item8.jpg',page:'/item8'}
-    ] 
   
 
   return (
@@ -27,12 +21,11 @@ export default function Home() {
       <Header />
 
       <main className={styles.main}>
-      
-      <MainItems ITEMS={ITEMS}/>
-      
+        <ItemExplain  page={0}/>
+
       <div className={styles.pageLinkBtn}>
         <Link href="/products">
-          <p>View More</p>
+          <p>Back To Products</p>
         </Link>
       </div>
 

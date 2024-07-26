@@ -1,22 +1,16 @@
-.main p{
-  margin: 100px 30px 0 30px;
-}
-
-.mainContainer{
-  display: flex;
-  justify-content: center;
-}
 
 .mainItens{
-  margin-top: 100px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr ;
 }
 
-.flexItems{
-  display: flex;
+.item img{
+  width: 90%;
 }
-.item{
-  width: 50%;
-  margin: 20px;
+
+.item p{
+  width: 90%;
+  font-size: 12px;
 }
 
 .item:hover{
@@ -25,25 +19,4 @@
   transition:0.5s;
 }
 
-.item img{
-  width: 100%;
-}
 
-.item p{
-  font-size: 12px ;
-  margin: 0;
-}
-
-
-@media (max-width: 800px){
-  .mainContainer{
-    display: block;
-  }
-  .flexItems{
-    margin: 0 25px;
-  }
-  .item{
-    width: 70%;
-   margin: 15px;
-  }
-}
