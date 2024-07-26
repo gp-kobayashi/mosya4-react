@@ -1,5 +1,7 @@
 
 .mainItens{
+  max-width: 1300px;
+  margin:100px auto 0 auto;
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr ;
 }

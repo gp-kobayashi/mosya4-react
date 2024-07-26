@@ -21,7 +21,7 @@ export default function item1() {
       <Header />
 
       <main className={styles.main}>
-        <ItemExplain  page={0}/>
+        <ItemExplain  page={13}/>
 
       <div className={styles.pageLinkBtn}>
         <Link href="/products">
