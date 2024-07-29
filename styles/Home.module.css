@@ -48,3 +48,28 @@
 .pageLinkBtn p{
   margin: 10px 20px 100px;
 }
+
+.company{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.listItem{
+  display: flex;
+  width: 600px;
+  border-bottom: 1px solid silver;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.listItem:last-child{
+  border-bottom: none;
+}
+
+.listTitle{
+  width: 30%;
+}
+
+.map{
+  margin-bottom: 100px;
+}
