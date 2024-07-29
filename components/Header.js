@@ -29,7 +29,7 @@ export function Header() {
               <Link href="/about">
               <li>ABOUT</li>
               </Link>
-              <Link href="/products">
+              <Link href="/company">
               <li>COMPANY</li>
               </Link>
               <Link href="/products">
