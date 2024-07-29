@@ -13,12 +13,14 @@ export function Header() {
 
   return (
       <header className={styles.header}>
-        <Link href="/">
-        <img src='img/logo.svg'/>
-        </Link>
-        <div onClick={handleDisplay}  className={`${styles.headerBtn} ${isActive ? styles.active : ""}`}>
-          <i></i>
-          <i></i>
+        <div className={styles.headerItem}>
+          <Link href="/">
+          <img src='img/logo.svg'/>
+          </Link>
+          <div onClick={handleDisplay}  className={`${styles.headerBtn} ${isActive ? styles.active : ""}`}>
+            <i></i>
+            <i></i>
+          </div>
         </div>
         <div className={`${styles.headerMenu} ${isActive ? styles.active : ""}`}>
           <div className={`${styles.headerBg} ${isActive ? styles.active : ""}`}>
@@ -32,7 +34,7 @@ export function Header() {
               <Link href="/company">
               <li>COMPANY</li>
               </Link>
-              <Link href="/products">
+              <Link href="/">
               <li>CONTACT</li>
               </Link>
             </ul>

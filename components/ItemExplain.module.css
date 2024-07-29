@@ -1,0 +1,52 @@
+
+  .itemPege{
+    margin-top: 100px;
+    width: 850px;
+  }
+  .itemPege p{
+    margin-left: 25px;
+    font-size: 14px;
+  }
+  .itemExplain{
+    display: flex;
+  }
+  .itemImg{
+    margin: 5%;
+    width: 50%;
+  }
+  .itemImg img{
+    width: 100%;
+  }
+  .itemText{
+    width: 50%;
+  }
+  .itemText p{
+    font-size: 14px;
+    margin: 30px;
+  }
+
+  .textContainer{
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    margin-left: 25px;
+  }
+  .title{
+    width: 25%;
+  }
+
+  
+  @media(max-width:900px){
+    .itemPege{
+      width: 100%;
+    }
+    .itemExplain{
+        display: block;
+      }
+      .itemImg{
+        width: 90%;
+      }
+      .itemText{
+        width:100%;
+      }
+  }

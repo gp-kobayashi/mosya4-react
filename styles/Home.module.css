@@ -46,7 +46,7 @@
 }
 
 .pageLinkBtn p{
-  margin: 10px 20px 100px;
+  margin: 50px 20px 100px;
 }
 
 .company{
@@ -72,4 +72,10 @@
 
 .map{
   margin-bottom: 100px;
+}
+
+@media(max-width:900px) {
+  .listItem{
+    display:block
+  }
 }

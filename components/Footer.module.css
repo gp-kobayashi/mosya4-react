@@ -1,10 +1,17 @@
 .footer{
   display: flex;
+  width: 90%;
+  margin: 0 auto;
   justify-content: space-between;
 }
 .footer p{
   margin: 0 10px 20px 10px;
   font-size: 12px;
+}
+
+.footer p:hover{
+ opacity: 0.6;
+ transition: 0.5s;
 }
 
 .footerLinks{
@@ -14,4 +21,13 @@
 .footerLinks p{
   margin: 0 10px 20px 10px;
   font-size: 12px;
+}
+
+@media(max-width:900px){
+  .footer{
+    display: block
+  }
+  .footerLinks p{
+    margin: 10px 20px;
+  }
 }

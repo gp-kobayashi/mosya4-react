@@ -1,4 +1,4 @@
-import styles from '../styles/Home.module.css'
+import styles from './ItemExplain.module.css'
 
 
 export function ItemExplain(props) {
@@ -20,11 +20,19 @@ const IMG =['img/item1.jpg','img/item2.jpg','img/item3.jpg','img/item4.jpg',
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
             <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
             <p>¥99,999 +tax</p>
-            <p>
-            SIZE：W999 × D999 × H999<br/>
-            COLOR：テキスト<br/>
-            MATERIAL：テキストテキストテキスト<br/>
-            </p>
+            <div className={styles.textContainer}>
+              <div className={styles.title}>SIZE：</div>
+              <div className={styles.text}>W999 × D999 × H999</div>
+            </div>
+            <div className={styles.textContainer}>
+              <div className={styles.title}>COLOR：</div>
+              <div className={styles.text}>テキスト</div>
+            </div>
+            <div className={styles.textContainer}>
+              <div className={styles.title}>MATERIAL：</div>
+              <div className={styles.text}>テキストテキストテキスト</div>
+            </div>
+            
         </div>
         </div>
       </div>
