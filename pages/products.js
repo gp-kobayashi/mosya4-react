@@ -1,10 +1,7 @@
-import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Footer } from '../components/Footer'
-import { Header } from '../components/Header'
 import { MainItems } from '../components/MainItems'
 import Link from 'next/link'
-
+import { Layout } from '../components/Layout'
 
 export default function Products() {
   const ITEMS =[{img:'img/item1.jpg',page:'/item1'},{img:'img/item2.jpg',page:'/item2'},
@@ -17,15 +14,7 @@ export default function Products() {
   
 
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Products|Furniture Design</title>
-        <link rel="icon" href="img/favicon.ico" />
-      </Head>
-
-      <Header />
-
-      <main className={styles.main}>
+    <Layout>
         <div className={styles.mainTitle}>
         <p>Products</p>
         </div>
@@ -39,9 +28,6 @@ export default function Products() {
       </Link>
       </div>
 
-      </main>
-
-      <Footer />
-    </div>
+      </Layout>
   )
 }
