@@ -1,0 +1,9 @@
+.about{
+  max-width: 600px;
+  margin: 100px 30px;
+}
+.about p{
+  margin-top: 30px;
+  font-size: 14px;
+  line-height:2;
+}
