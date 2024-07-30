@@ -1,61 +1,45 @@
-.header{
-  position: fixed;
-  top:0;
-  left: 0;
-  right: 0;
-  background-color: white;
+
+.main{
+  max-width: 1300px;
+  min-height: 600px;
+  margin: 0 auto;
 }
 
-.header img{
-  margin: 30px;
-  width: 180px;
+
+.mainTitle{
+  margin-top: 100px;
+  margin-left: 30px;
 }
 
-.headerBtn{
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 50px;
-  height: 50px;
-  margin: 10px 30px;
+.pageTop{
+  margin-top: 100px;
 }
 
-.headerBtn i{
-  position: absolute;
-  top: 20px;
-  left: 10px;
-  width: 30px;
-  height: 2px;
-  background-color: black;
+.itemPege{
+  margin-top: 100px;
+  width: 850px;
 }
-.headerBtn i:last-child{
-  top:30px;
-} 
-
-.main p{
-  margin: 100px 30px 0 30px;
+.itemPege p{
+  margin-left: 25px;
+  font-size: 14px;
 }
-
-.mainContainer{
+.itemExplain{
   display: flex;
-  justify-content: center;
-}
 
-.flexItems{
-  display: flex;
 }
-
-.item{
+.itemImg{
+  margin: 5%;
   width: 50%;
-  margin: 20px;
 }
-.item img{
+.itemImg img{
   width: 100%;
 }
-
-.item p{
-  font-size: 12px ;
-  margin: 0;
+.itemText{
+  width: 50%;
+}
+.itemText p{
+  font-size: 14px;
+  margin: 30px;
 }
 
 .pageLinkBtn{
@@ -64,24 +48,5 @@
 }
 
 .pageLinkBtn p{
-  margin-top: 10px;
-  margin-bottom: 100px;
-}
-
-.footer{
-  display: flex;
-  justify-content: space-between;
-}
-.footer p{
-  margin: 0 10px 20px 10px;
-  font-size: 12px;
-}
-
-.footerLinks{
-  display: flex;
-}
-
-.footerLinks p{
-  margin: 0 10px 20px 10px;
-  font-size: 12px;
+  margin: 50px 20px 100px;
 }

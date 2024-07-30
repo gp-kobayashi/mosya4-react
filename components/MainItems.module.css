@@ -1,0 +1,32 @@
+
+.mainItens{
+  max-width: 1300px;
+  margin:0 auto;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr ;
+}
+ .item{
+  margin: 0 20px 30px 20px;
+ }
+
+.item img{
+  width: 100%;
+}
+
+.item p{
+  width: 90%;
+  font-size: 12px;
+  margin: 0;
+}
+
+.item:hover{
+  color: gray;
+  opacity: 0.8;
+  transition:0.5s;
+}
+@media(max-width:900px) {
+  .mainItens{
+    grid-template-columns:1fr 1fr ;
+  }
+}
+
