@@ -17,6 +17,8 @@ export default function Home() {
 
   return (
     <Layout>
+      <div className={styles.pageTop}>
+      </div>
       <MainItems ITEMS={ITEMS}/>
       
       <div className={styles.pageLinkBtn}>

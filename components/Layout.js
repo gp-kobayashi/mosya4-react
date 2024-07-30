@@ -10,7 +10,6 @@ export function Layout({ children }) {
                 <title>Products|Furniture Design</title>
                 <link rel="icon" href="img/favicon.ico" />
             </Head>
-
             <Header />
             <main className={styles.main}>
                 {children}

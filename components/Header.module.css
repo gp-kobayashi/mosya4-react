@@ -9,7 +9,7 @@
 
 .headerItem{
   display: flex;
-  width: 1300px;
+  max-width: 1300px;
   justify-content: space-between;
   margin: 0 auto;
 }
