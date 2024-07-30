@@ -12,12 +12,7 @@ export default function item16() {
     <Layout>
         <ItemExplain  page={15}/>
 
-      <div className={styles.pageLinkBtn}>
-        <Link href="/products">
-          <p>Back To Products</p>
-        </Link>
-      </div>
-
+    
       </Layout>
   )
 }
