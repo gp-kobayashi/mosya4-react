@@ -15,19 +15,20 @@ export default function Products() {
 
   return (
     <Layout>
-        <div className={styles.mainTitle}>
+
+      <div className={styles.mainTitle}>
         <p>Products</p>
-        </div>
+      </div>
+      
       <MainItems ITEMS={ITEMS} />
 
       <div className={styles.pageLinkBtn}>
-      <p>1</p>
-      
-      <Link href="/products2">
-      <p>2</p>
-      </Link>
+        <p>1</p>
+        <Link href='/products2'>
+          <p>2</p>
+        </Link>
       </div>
 
-      </Layout>
+    </Layout>
   )
 }

@@ -7,17 +7,17 @@ export function MainItems(props) {
 
   return (
         <div className={styles.mainItens}>
-        {ITEMS.map((item, index) => {
-        return (
-          <div key={index} className={styles.item}>
-            <Link href={item.page}>
-              <img src={item.img} />
-              <p>プロダクトタイトルプロダクトタイトル</p>
-              <p>¥99,999 +tax</p>
-            </Link>
-          </div>
-        )
-      })}
+          {ITEMS.map((item, index) => {
+          return (
+            <div key={index} className={styles.item}>
+              <Link href={item.page}>
+                <img src={item.img} />
+                <p>プロダクトタイトルプロダクトタイトル</p>
+                <p>¥99,999 +tax</p>
+              </Link>
+            </div>
+            )
+          })}
         </div>
 
   )

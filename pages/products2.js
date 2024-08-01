@@ -17,13 +17,13 @@ export default function Products2() {
 
       <MainItems ITEMS={ITEMS}/>
 
-     <div className={styles.pageLinkBtn}>
-      <Link href="/products">
-       <p>1</p>
-      </Link>
-      <p>2</p>
+      <div className={styles.pageLinkBtn}>
+        <Link href='/products'>
+          <p>1</p>
+        </Link>
+        <p>2</p>
       </div>
       
-      </Layout>
+    </Layout>
   )
 }

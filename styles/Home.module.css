@@ -5,7 +5,6 @@
   margin: 0 auto;
 }
 
-
 .mainTitle{
   margin-top: 100px;
   margin-left: 30px;
@@ -13,33 +12,6 @@
 
 .pageTop{
   margin-top: 100px;
-}
-
-.itemPege{
-  margin-top: 100px;
-  width: 850px;
-}
-.itemPege p{
-  margin-left: 25px;
-  font-size: 14px;
-}
-.itemExplain{
-  display: flex;
-
-}
-.itemImg{
-  margin: 5%;
-  width: 50%;
-}
-.itemImg img{
-  width: 100%;
-}
-.itemText{
-  width: 50%;
-}
-.itemText p{
-  font-size: 14px;
-  margin: 30px;
 }
 
 .pageLinkBtn{

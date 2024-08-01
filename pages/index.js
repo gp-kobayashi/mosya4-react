@@ -17,16 +17,18 @@ export default function Home() {
 
   return (
     <Layout>
+
       <div className={styles.pageTop}>
       </div>
       <MainItems ITEMS={ITEMS}/>
       
       <div className={styles.pageLinkBtn}>
-        <Link href="/products">
+        <Link href='/products'>
           <p>View More</p>
         </Link>
       </div>
-      </Layout>
+
+    </Layout>
     
   )
 }

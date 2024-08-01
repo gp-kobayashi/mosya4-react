@@ -14,7 +14,7 @@ export function Header() {
   return (
       <header className={styles.header}>
         <div className={styles.headerItem}>
-          <Link href="/">
+          <Link href='/'>
           <img src='img/logo.svg'/>
           </Link>
           <div onClick={handleDisplay}  className={`${styles.headerBtn} ${isActive ? styles.active : ""}`}>
@@ -25,16 +25,16 @@ export function Header() {
         <div className={`${styles.headerMenu} ${isActive ? styles.active : ""}`}>
           <div className={`${styles.headerBg} ${isActive ? styles.active : ""}`}>
             <ul>
-              <Link href="/products">
+              <Link href='/products'>
                 <li>PRODUCTS</li>
               </Link>
-              <Link href="/about">
+              <Link href='/about'>
               <li>ABOUT</li>
               </Link>
-              <Link href="/company">
+              <Link href='/company'>
               <li>COMPANY</li>
               </Link>
-              <Link href="/">
+              <Link href='/'>
               <li>CONTACT</li>
               </Link>
             </ul>

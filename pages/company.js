@@ -39,7 +39,7 @@ export default function company() {
           </div>
       </div>
       <div className={styles.map}>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6482.583237668659!2d139.72046549376023!3d35.66982084036335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c820ac932eb%3A0xc68079dd10afd971!2z44CSMTA3LTAwNjIg5p2x5Lqs6YO95riv5Yy65Y2X6Z2S5bGx77yR5LiB55uu!5e0!3m2!1sja!2sjp!4v1722226222249!5m2!1sja!2sjp" width="600" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6482.583237668659!2d139.72046549376023!3d35.66982084036335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c820ac932eb%3A0xc68079dd10afd971!2z44CSMTA3LTAwNjIg5p2x5Lqs6YO95riv5Yy65Y2X6Z2S5bGx77yR5LiB55uu!5e0!3m2!1sja!2sjp!4v1722226222249!5m2!1sja!2sjp' width="600" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       </Layout>
   )
