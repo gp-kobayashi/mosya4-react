@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
-import { ItemExplain } from '../../components/ItemExplain'
-import { Layout } from '../../components/Layout'
+import { ItemExplain } from 'components/ItemExplain'
+import { Layout } from 'components/Layout'
 
 
 function item() {

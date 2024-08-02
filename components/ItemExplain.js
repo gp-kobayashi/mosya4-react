@@ -1,4 +1,4 @@
-import styles from './ItemExplain.module.css'
+import styles from 'components/ItemExplain.module.css'
 import Link from 'next/link'
 
 export function ItemExplain(props) {

@@ -1,4 +1,4 @@
-import styles from './MainItems.module.css'
+import styles from 'components/MainItems.module.css'
 import Link from 'next/link'
 
 export function MainItems(props) {
