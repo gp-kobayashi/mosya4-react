@@ -12,8 +12,8 @@ export function MainItems(props) {
             <div key={index} className={styles.item}>
               <Link href={item.page}>
                 <img src={item.img} />
-                <p>プロダクトタイトルプロダクトタイトル</p>
-                <p>¥99,999 +tax</p>
+                <p>{item.text}</p>
+                <p>{item.price}</p>
               </Link>
             </div>
             )

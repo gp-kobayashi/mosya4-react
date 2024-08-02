@@ -4,8 +4,10 @@ import { Layout } from '../components/Layout'
 import Link from 'next/link'
 
 export default function Products2() {
-  const ITEMS =[{img:'img/item13.jpg',page:'/item13'},{img:'img/item14.jpg',page:'/item14'},
-    {img:'img/item15.jpg',page:'/item15'},{img:'img/item16.jpg',page:'/item16'},
+  const ITEMS =[{img:'img/item13.jpg',page:'/item13',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},
+    {img:'img/item14.jpg',page:'/item14',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},
+    {img:'img/item15.jpg',page:'/item15',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},
+    {img:'img/item16.jpg',page:'/item16',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},
   ]
 
   return (
