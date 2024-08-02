@@ -14,7 +14,7 @@
  transition: 0.5s;
 }
 
-.footerLinks{
+.footer_links{
   display: flex;
 }
 
@@ -22,7 +22,7 @@
   .footer{
     display: block
   }
-  .footerLinks p{
+  .footer_links p{
     margin: 10px 20px;
   }
 }

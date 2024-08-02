@@ -1,4 +1,4 @@
-import styles from '../components/about.module.css'
+import styles from '../styles/about.module.css'
 import { Layout } from '../components/Layout'
 
 

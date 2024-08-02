@@ -11,13 +11,13 @@ export default function Products2() {
   return (
     <Layout>
         
-      <div className={styles.mainTitle}>
+      <div className={styles.main_title}>
         <p>Products</p>
       </div>
 
       <MainItems ITEMS={ITEMS}/>
 
-      <div className={styles.pageLinkBtn}>
+      <div className={styles.page_link}>
         <Link href='/products'>
           <p>1</p>
         </Link>

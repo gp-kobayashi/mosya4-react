@@ -1,4 +1,4 @@
-import styles from '../components/company.module.css'
+import styles from '../styles/company.module.css'
 import { Layout } from '../components/Layout'
 
 
@@ -10,30 +10,30 @@ export default function company() {
     <Layout>
         <div className={styles.company}>
           <p>Company</p>
-          <div className={styles.companyList}>
-            <div className={styles.listItem}>
-              <div className={styles.listTitle}>社名</div>
-              <div className={styles.listText}>株式会社ファニチャーデザイン</div>
+          <div className={styles.company_conteinar}>
+            <div className={styles.company_list}>
+              <div className={styles.title}>社名</div>
+              <div className={styles.text}>株式会社ファニチャーデザイン</div>
             </div>
-            <div className={styles.listItem}>
-              <div className={styles.listTitle}>住所</div>
-              <div className={styles.listText}>〒107-0062 東京都港区南青山１丁目××××××</div>
+            <div className={styles.company_list}>
+              <div className={styles.title}>住所</div>
+              <div className={styles.text}>〒107-0062 東京都港区南青山１丁目××××××</div>
             </div>
-            <div className={styles.listItem}>
-              <div className={styles.listTitle}>設立</div>
-              <div className={styles.listText}>XXXX年XX月</div>
+            <div className={styles.company_list}>
+              <div className={styles.title}>設立</div>
+              <div className={styles.text}>XXXX年XX月</div>
             </div>
-            <div className={styles.listItem}>
-              <div className={styles.listTitle}>資本金</div>
-              <div className={styles.listText}>XXXX万円</div>
+            <div className={styles.company_list}>
+              <div className={styles.title}>資本金</div>
+              <div className={styles.text}>XXXX万円</div>
             </div>
-            <div className={styles.listItem}>
-              <div className={styles.listTitle}>従業員数</div>
-              <div className={styles.listText}>XX名</div>
+            <div className={styles.company_list}>
+              <div className={styles.title}>従業員数</div>
+              <div className={styles.text}>XX名</div>
             </div>
-            <div className={styles.listItem}>
-              <div className={styles.listTitle}>事業内容</div>
-              <div className={styles.listText}>家具、インテリアの企画・生産<br/>家具、インテリアの販売<br/>
+            <div className={styles.company_list}>
+              <div className={styles.title}>事業内容</div>
+              <div className={styles.text}>家具、インテリアの企画・生産<br/>家具、インテリアの販売<br/>
 店舗の企画・デザイン・設計</div>
             </div>
           </div>

@@ -6,7 +6,7 @@ export function MainItems(props) {
   const ITEMS = props.ITEMS
 
   return (
-        <div className={styles.mainItens}>
+        <div className={styles.mainItems}>
           {ITEMS.map((item, index) => {
           return (
             <div key={index} className={styles.item}>

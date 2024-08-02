@@ -10,31 +10,31 @@ const IMG =['img/item1.jpg','img/item2.jpg','img/item3.jpg','img/item4.jpg',
 ]
 
   return (
-      <div className={styles.itemPege}>
+      <div className={styles.itemExplain}>
         <p>プロダクトタイトル</p>
-        <div className={styles.itemExplain}>
-          <div className={styles.itemImg}>
+        <div className={styles.explain_container}>
+          <div className={styles.explain_img}>
             <img src={IMG[props.page]}/>
           </div>
-            <div className={styles.itemText}>
+            <div className={styles.explain_text}>
               <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
               <p>テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
               <p>¥99,999 +tax</p>
-              <div className={styles.textContainer}>
+              <div className={styles.list}>
                 <div className={styles.title}>SIZE：</div>
                 <div className={styles.text}>W999 × D999 × H999</div>
               </div>
-              <div className={styles.textContainer}>
+              <div className={styles.list}>
                 <div className={styles.title}>COLOR：</div>
                 <div className={styles.text}>テキスト</div>
               </div>
-              <div className={styles.textContainer}>
+              <div className={styles.list}>
                 <div className={styles.title}>MATERIAL：</div>
                 <div className={styles.text}>テキストテキストテキスト</div>
               </div>
             </div>
         </div>
-        <div className={styles.pageLinkBtn}>
+        <div className={styles.page_link}>
           <Link href='/products'>
             <p>Back To Products</p>
           </Link>

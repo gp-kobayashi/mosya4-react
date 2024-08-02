@@ -16,13 +16,13 @@ export default function Products() {
   return (
     <Layout>
 
-      <div className={styles.mainTitle}>
+      <div className={styles.main_title}>
         <p>Products</p>
       </div>
       
       <MainItems ITEMS={ITEMS} />
 
-      <div className={styles.pageLinkBtn}>
+      <div className={styles.page_link}>
         <p>1</p>
         <Link href='/products2'>
           <p>2</p>
