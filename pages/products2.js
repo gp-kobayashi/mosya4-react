@@ -1,7 +1,7 @@
-import styles from 'styles/Home.module.css'
-import { MainItems } from 'components/MainItems'
-import { Layout } from 'components/Layout'
-import Link from 'next/link'
+import styles from 'styles/Home.module.css';
+import { MainItems } from 'components/MainItems';
+import { Layout } from 'components/Layout';
+import Link from 'next/link';
 
 export default function Products2() {
   const ITEMS =[{img:'img/item/13.jpg',page:'/item13',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},

@@ -1,5 +1,5 @@
-import styles from 'styles/company.module.css'
-import { Layout } from 'components/Layout'
+import styles from 'styles/company.module.css';
+import { Layout } from 'components/Layout';
 
 
 export default function company() {

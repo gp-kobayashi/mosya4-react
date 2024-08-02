@@ -1,6 +1,5 @@
-import styles from 'styles/about.module.css'
-import { Layout } from 'components/Layout'
-
+import styles from 'styles/about.module.css';
+import { Layout } from 'components/Layout';
 
 
 export default function about() {

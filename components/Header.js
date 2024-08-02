@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import styles from 'components/Header.module.css'
-import { useState } from 'react'
+import styles from 'components/Header.module.css';
+import { useState } from 'react';
 
 
 

@@ -1,5 +1,5 @@
-import styles from 'components/MainItems.module.css'
-import Link from 'next/link'
+import styles from 'components/MainItems.module.css';
+import Link from 'next/link';
 
 export function MainItems(props) {
 

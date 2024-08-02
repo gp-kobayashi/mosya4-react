@@ -1,5 +1,5 @@
-import styles from 'components/ItemExplain.module.css'
-import Link from 'next/link'
+import styles from 'components/ItemExplain.module.css';
+import Link from 'next/link';
 
 export function ItemExplain(props) {
 
