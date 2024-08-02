@@ -15,7 +15,7 @@ export function Header() {
       <header className={styles.header}>
         <div className={styles.header_conteinar}>
           <Link href='/'>
-          <img src='img/logo.svg'/>
+          <img src='/img/logo.svg'/>
           </Link>
           <div onClick={handleDisplay}  className={`${styles.header_btn} ${isActive ? styles.active : ""}`}>
             <i></i>

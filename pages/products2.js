@@ -4,10 +4,10 @@ import { Layout } from 'components/Layout';
 import Link from 'next/link';
 
 export default function Products2() {
-  const ITEMS =[{img:'img/item/13.jpg',page:'/item13',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},
-    {img:'img/item14.jpg',page:'/item/14',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},
-    {img:'img/item15.jpg',page:'/item/15',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},
-    {img:'img/item16.jpg',page:'/item/16',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},
+  const ITEMS =[{img:'/img/item/13.jpg',page:'/item13',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},
+    {img:'/img/item14.jpg',page:'/item/14',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},
+    {img:'/img/item15.jpg',page:'/item/15',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},
+    {img:'/img/item16.jpg',page:'/item/16',text:'プロダクトタイトルプロダクトタイトル',price:'¥99,999 +tax'},
   ]
 
   return (
