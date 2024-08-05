@@ -9,7 +9,7 @@ function item() {
  return (
     <Layout>
       
-      <ItemExplain  img={imgId}/>
+      <ItemExplain  page={imgId}/>
 
     </Layout>
   )
