@@ -1,0 +1,65 @@
+
+.itemExplain{
+    margin-top: 100px;
+    max-width: 850px;
+    font-size: 14px;
+  }
+
+  .itemExplain p{
+    margin-left: 25px;
+  }
+
+  .explain_container{
+    display: flex;
+  }
+
+  .explain_img{
+    margin: 30px;
+    width: 50%;
+  }
+
+  .explain_img img{
+    width: 100%;
+  }
+
+  .explain_text{
+    width: 50%;
+  }
+
+  .explain_text p{
+    margin: 30px;
+  }
+
+  .list{
+    display: flex;
+    width: 100%;
+    margin-left: 30px;
+  }
+  
+  .title{
+    width: 25%;
+  }
+
+  .page_link{
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .page_link p{
+    margin: 50px 20px 100px;
+  }
+  
+  @media(max-width:900px){
+    .itemExplain{
+      width: 100%;
+    }
+    .explain_container{
+        display: block;
+      }
+      .explain_img{
+        width: 90%;
+      }
+      .explain_text{
+        width:100%;
+      }
+  }
