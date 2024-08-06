@@ -4,6 +4,7 @@ import Link from 'next/link';
 export function MainItems(props) {
 
   const ITEMS = props.ITEMS
+  
 
   return (
     <div className={styles.mainItems}>

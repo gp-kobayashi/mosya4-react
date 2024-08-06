@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Layout } from 'components/Layout';
 import { useRouter } from 'next/navigation';
 
-function Products() {
+function products() {
   const router = useRouter
 
   const ITEMS = [
@@ -106,7 +106,13 @@ function Products() {
     },
   ]
 
-
+  const perPage = 12
+  const currentPage = router.query.products
+  
+  const start = perPage * (currentPage - 1)
+  const end = start + perPage
+  const displayData = ITEMS.slice(start, end)
+  
   return (
     <Layout>
 
@@ -114,7 +120,7 @@ function Products() {
         <p>Products</p>
       </div>
 
-      <MainItems ITEMS={ITEMS} />
+      <MainItems ITEMS={displayData} />
 
       <div className={styles.page_link}>
         <Link href='/products/1'>
@@ -129,4 +135,4 @@ function Products() {
   )
 }
 
-export default Products
+export default products
