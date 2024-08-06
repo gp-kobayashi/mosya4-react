@@ -2,10 +2,10 @@ import styles from 'styles/Home.module.css';
 import { MainItems } from 'components/MainItems';
 import Link from 'next/link';
 import { Layout } from 'components/Layout';
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/router';
 
 function products() {
-  const router = useRouter
+  const router = useRouter()
 
   const ITEMS = [
     {
