@@ -1,6 +1,6 @@
 import styles from 'styles/Home.module.css';
 import { MainItems } from 'components/MainItems';
-import Link from 'next/link';
+import { PageLink } from 'components/PageLink';
 import { Layout } from 'components/Layout';
 import { useRouter } from 'next/router';
 
@@ -108,11 +108,13 @@ function products() {
 
   const perPage = 12
   const currentPage = router.query.products
-  
+
   const start = perPage * (currentPage - 1)
   const end = start + perPage
   const displayData = ITEMS.slice(start, end)
+
   
+
   return (
     <Layout>
 
@@ -122,14 +124,7 @@ function products() {
 
       <MainItems ITEMS={displayData} />
 
-      <div className={styles.page_link}>
-        <Link href='/products/1'>
-          <p>1</p>
-        </Link>
-        <Link href='/products/2'>
-          <p>2</p>
-        </Link>
-      </div>
+      <PageLink ITEMS={ITEMS} />
 
     </Layout>
   )
