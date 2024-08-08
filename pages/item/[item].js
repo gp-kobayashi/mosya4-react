@@ -182,7 +182,7 @@ function item() {
           </div>
         </div>
         <div className={styles.page_link}>
-          <Link href='/products'>
+          <Link href='/products/1'>
             <p>Back To Products</p>
           </Link>
         </div>
