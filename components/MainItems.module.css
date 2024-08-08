@@ -1,7 +1,5 @@
 
 .mainItems{
-  max-width: 1300px;
-  margin:0 auto;
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
 }
@@ -25,9 +23,9 @@
   margin: 0;
 }
 
-@media(max-width:900px) {
-  .mainItens{
-    grid-template-columns:1fr 1fr ;
+@media(max-width:900px){
+  .mainItems{
+    grid-template-columns:1fr 1fr;
   }
 }
 

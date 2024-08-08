@@ -11,8 +11,9 @@
 .page_link{
   display: flex;
   justify-content: center; 
+  margin:50px 0 100px;
 }
 
-.page_link p{
-  margin: 50px 20px 100px;
+.btn{
+  margin: 0 20px;
 }
