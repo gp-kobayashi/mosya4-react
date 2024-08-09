@@ -122,7 +122,7 @@ function products() {
         <p>Products</p>
       </div>
 
-      <MainItems ITEMS={displayData} />
+      <MainItems ITEMS={displayData} PAGE={currentPage} />
 
       <PageLink ITEMS={ITEMS} />
 
