@@ -4,16 +4,18 @@ import styles from 'components/PageLink.module.css';
 export function PageLink(props) {
 
   const ITEMS = props.ITEMS;
-  const nowPage =props.PAGE;
+  const nowPage =Number(props.PAGE);
   const lastPage = Math.ceil(ITEMS / 12);
   
-  const nextPage = nowPage + 1;
+  let nextPage = nowPage + 1;
+  let backPage = nowPage - 1;
+
   if (nowPage == lastPage) {
-    nextPage - 1;
+    nextPage -= 1;
   };
-  const backPage = nowPage - 1;
+  
   if (backPage == 0) {
-    backPage + 1;
+    backPage += 1;
   };
 
   const nextLink = '/products/' + nextPage;
