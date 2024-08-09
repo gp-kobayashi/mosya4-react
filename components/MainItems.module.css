@@ -1,13 +1,17 @@
 
-.mainItens{
-  max-width: 1300px;
-  margin:0 auto;
+.mainItems{
   display: grid;
-  grid-template-columns:1fr 1fr 1fr 1fr ;
+  grid-template-columns:1fr 1fr 1fr 1fr;
 }
+
  .item{
   margin: 0 20px 30px 20px;
  }
+ .item:hover{
+  color: gray;
+  opacity: 0.8;
+  transition:0.5s;
+}
 
 .item img{
   width: 100%;
@@ -19,14 +23,9 @@
   margin: 0;
 }
 
-.item:hover{
-  color: gray;
-  opacity: 0.8;
-  transition:0.5s;
-}
-@media(max-width:900px) {
-  .mainItens{
-    grid-template-columns:1fr 1fr ;
+@media(max-width:900px){
+  .mainItems{
+    grid-template-columns:1fr 1fr;
   }
 }
 
