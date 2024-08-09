@@ -5,14 +5,14 @@ export function PageLink(props) {
 
   const ITEMS = props.ITEMS;
   const nowPage =props.PAGE;
-  const lastPage = Math.ceil(ITEMS.length / 12);
+  const lastPage = Math.ceil(ITEMS / 12);
   
   const nextPage = nowPage + 1;
   if (nowPage == lastPage) {
     nextPage - 1;
   };
   const backPage = nowPage - 1;
-  if (nowPage == 1) {
+  if (backPage == 0) {
     backPage + 1;
   };
 

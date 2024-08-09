@@ -113,7 +113,7 @@ function products() {
   const end = start + perPage
   const displayData = ITEMS.slice(start, end)
 
-  
+  const itemsNum = Object.keys(ITEMS).length
 
   return (
     <Layout>
@@ -122,9 +122,9 @@ function products() {
         <p>Products</p>
       </div>
 
-      <MainItems ITEMS={displayData} PAGE={currentPage} />
+      <MainItems ITEMS={displayData} />
 
-      <PageLink ITEMS={ITEMS} />
+      <PageLink ITEMS={itemsNum} PAGE={currentPage} />
 
     </Layout>
   )
