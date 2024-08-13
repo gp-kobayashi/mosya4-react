@@ -26,12 +26,12 @@ export function PageLink(props) {
     <div className={styles.page_link}>
       <div className={styles.btn}>
         <Link href={backLink}>
-          <p>{backPage}</p>
+          <p>{String(backPage)}</p>
         </Link>
       </div>
       <div className={styles.btn}>
         <Link href={nextLink}>
-          <p>{nextPage}</p>
+          <p>{String(nextPage)}</p>
         </Link>
       </div>
     </div>
